@@ -1,0 +1,58 @@
+.sidebar {
+  width: 200px;
+  background-color: #ffffff;
+  padding: 10px;
+  box-sizing: border-box;
+  
+}
+
+.sidebar h3 {
+  color: #5b1111;
+}
+
+.sidebar ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+.sidebar li {
+  margin-bottom: 10px;
+}
+
+.sidebar a {
+  text-decoration: none;
+  color: #666;
+}
+
+.sidebar a:hover {
+  color: #901a1a;
+}
+.product-title {
+  font-weight: bold;
+  font-size: 2.5rem;
+  margin: 0;
+  color: white;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+}
+
+.welcome-text {
+  font-size: 1.3rem;
+  color: white;
+  
+}
+
+.example-spacer {
+
+  flex: 1 1 auto;
+
+}
+
+mat-list-item {
+  margin-bottom: 30px;
+  width: 180px;
+}

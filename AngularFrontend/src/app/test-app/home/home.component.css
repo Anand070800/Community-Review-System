@@ -1,0 +1,104 @@
+.button-container {
+    display: flex;
+    justify-content: center;
+  }
+  
+  .register-button {
+    width: 200px;
+  }
+  
+  .login-button{
+    width: 200px;
+  }
+
+.main-container{
+
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+/* background-image: url("https://img.rawpixel.com/s3fs-private/rawpixel_images/website_content/v996-008.jpg?w=800&dpr=1&fit=default&crop=default&q=65&vib=3&con=3&usm=15&bg=F4F4F3&ixlib=js-2.2.1&s=cd9b0934d51e4428a42dfcd6317d57d0"); */
+    background-size: cover;
+  background-repeat: no-repeat;
+    
+}
+
+.product-title {
+  font-weight: bold;
+  font-size: 2.5rem;
+  margin: 0;
+  color: white;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+}
+
+.heading{
+  font-weight: bold;
+  font-size: 2.5rem;
+  
+  
+  text-decoration: dotted;
+}
+
+.lead{
+  font-weight: bold;
+  font-size: 2rem;
+
+}
+
+
+.welcome-text {
+  font-size: 1.3rem;
+  color: white;
+  
+}
+
+
+
+.table-shadow {
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+html, body {
+  height: 100%;
+}
+
+/* body {
+  margin: 0;
+  padding: 0;
+  background-image: url("https://c4.wallpaperflare.com/wallpaper/601/17/279/minimalism-techno-tatof-abstract-wallpaper-preview.jpg");
+  
+
+  background-size: cover;
+  background-repeat: no-repeat;
+} */
+
+.custom-button {
+  transition: transform 0.3s ease;
+  background-color: #5d5c5c; /* Update with your desired color */
+  color: #ffffff; /* Update with your desired color */
+}
+
+.custom-button:hover {
+  transform: scale(1.1);
+}
+
+
+
+.card {
+  /* Add shadows to create the "card" effect */
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  transition: 0.3s;
+}
+
+/* On mouse-over, add a deeper shadow */
+.card:hover {
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+
+/* Add some padding inside the card container */
+.container {
+  padding: 2px 16px;
+}

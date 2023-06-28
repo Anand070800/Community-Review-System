@@ -1,0 +1,90 @@
+.centered {
+  width: 80%;
+  margin: 30px auto;
+  text-align: justify;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.top-left {
+  margin: 10px 0px;
+  color: black;
+  font-size: 30px;
+  width: fit-content;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+
+
+
+.approved-text {
+  font-weight: bold;
+}
+
+/* .button-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center; 
+  width: 110%;
+  margin-top: 10px; 
+} */
+.star {
+  width: 20px;
+  height: 20px;
+  margin-right: 5px;
+}
+.approve-btn{
+  flex: 1;
+  margin: 0 5px;
+  width: 45%;
+}
+.cancel-btn {
+  flex: 1;
+  margin: 0 5px;
+  width: 45%; /* Adjust the width value to control the width of the buttons */
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  grid-gap: 20px;
+}
+
+.review-container {
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 10px;
+  background-color: #f5f5f5;
+}
+
+.review-header {
+  margin-bottom: 10px;
+}
+
+.review-body {
+  margin-bottom: 10px;
+  justify-content: center;
+}
+
+/* .rating {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+} */
+
+.review-text {
+  margin: 0;
+  justify-content: center;
+}
+
+.review-footer {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.button-container {
+  display: flex;
+}
+
+.approve-btn {
+  margin-right: 10px;
+}

@@ -1,0 +1,31 @@
+<div class="mt-2" style="float: right;">
+  <button mat-raised-button color="primary" routerLink="/admin/addProduct">
+    <mat-icon>add</mat-icon> Add Product
+  </button>
+</div>
+
+<br><br><br>
+
+<table class="table table-striped" style="margin-right:300px; margin-top:50px">
+  <tr>
+
+    <th>Product Name</th>
+    <th>Brand</th>
+    <th>Product Code</th>
+    <th>Product Price</th>
+    <th>Action</th>
+
+  </tr>
+  <tr *ngFor="let p of products">
+
+    <td>{{ p.productName }}</td>
+    <td>{{ p.brand }}</td>
+    <td>{{ p.productCode }}</td>
+    <td>{{p.prodPrice}}</td>
+    <td>
+    <button class="btn btn-danger" color="warn" (click)="deleteProduct(p.productId)">
+       <i class="fas fa-trash"></i>
+    </button>
+    </td>
+  </tr>
+</table>
